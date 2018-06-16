@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fazt Github Client</title>
+    <!-- BOOTSTRAP  -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <!-- FONT AWESOME ICONS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  </head>
+  <body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="/">
+        <i class="fab fa-github"></i> Github Client
+      </a>
+      <form id="userForm" class="form-inline my-2 my-lg-0">
+        <input id="textSearch" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" autofocus>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+          <!-- PROFILE  -->
+        <div id="profile" class="col-md-4"></div>
+        <div class="col-md-8">
+          <div id="repositories"></div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
