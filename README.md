@@ -1,4 +1,4 @@
-# Gihtub Client
+# Github Client
 A simple github client web applcation using OOP javascript and the Github API
 
 # Screenshot
